@@ -10,4 +10,4 @@ os.system('echo $PWD')
 os.system('ls')
 
 os.system('xtuner convert merge /home/xlab-app-center/InternLM-chat-7b /home/xlab-app-center/hf /home/xlab-app-center/hf-merge --max-shard-size 2GB')
-os.system('streamlit run /home/xlab-app-center/InternLM/app.py --server.address=0.0.0.0 --server.port 7860')
+os.system('streamlit run /home/xlab-app-center/InternLM/web_demo.py --server.address=0.0.0.0 --server.port 7860')
